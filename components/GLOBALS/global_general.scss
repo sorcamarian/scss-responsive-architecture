@@ -1,0 +1,18 @@
+// -------------------------
+// -------------------------
+// General
+// -------------------------
+// -------------------------
+
+
+body {
+  font        : $base-font-size $first-font-family;
+  line-height : normal;
+
+  @media (min-width : $lg-style-start-at-width) {
+    &{
+      width      : 100vw!important;
+      overflow-x : hidden;
+    }
+  }
+}

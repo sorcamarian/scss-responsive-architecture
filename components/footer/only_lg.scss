@@ -1,0 +1,79 @@
+
+
+// ---------
+//   Only large screens (Only LG)
+//   Only large screens (Only LG)
+// ----------------
+
+
+// @media (min-width : $lg-style-start-at-width) {
+
+    /*
+      Footer - Only LG
+      Footer - Only LG
+      Footer - Only LG
+      -------------------------------------
+    */
+    #footer {
+
+      .footer-inner{
+        max-width : $desktop-sections-max-width;
+        padding   : 20px 40px;
+        color     : $footer-text-color;
+        //
+        // Footer general
+        //
+
+
+        // links
+        a {
+          color           : $footer-link-color!important;
+          border          : none;
+          &:hover{
+            opacity : .8;
+          }
+        }
+
+
+        // body of footer
+        .sqs-col-12{
+          > .row {
+              display : flex;
+
+              //
+              // logo - left side
+              //
+              >:first-child {
+                width : $desktop-footer-logo-width;
+                // reset
+                > .image-block {
+                  padding : 0;
+                } // > .image-block
+                .intrinsic{
+                  max-width : $desktop-footer-logo-width!important;
+                  } // .intristic
+              } // logo - left side
+
+
+              //
+              // text - right side
+              //
+              >:last-child{
+                width        : auto;
+                margin       : auto 0 auto auto;
+                padding-left : 40px;
+
+                & > .sqs-block{
+                  padding : 0;
+                }
+              } // text - right side
+
+          } // > .row
+        } // .sqs-col-12
+        // body of footer
+
+
+      } // .footer-inner
+    } // #footer
+
+// } // @media (min-width : $lg-style-start-at-width)

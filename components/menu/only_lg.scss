@@ -1,0 +1,59 @@
+
+
+// ---------------
+//   Only large screens (Only LG)
+//   Only large screens (Only LG)
+// ----------------
+
+
+
+// @media (min-width : $lg-style-start-at-width) {
+
+  /*
+    MENU - Only LG
+    MENU - Only LG
+    MENU - Only LG
+  */
+    #header{
+      background : #fff;
+      max-width  : $desktop-menu-max-width;
+      padding    : 0 40px;
+      margin     : 0 auto;
+
+
+      // Navigation links
+      @at-root #mainNavigation {
+        .active {
+          &:after{
+            height     : 5px;
+            background : $menu-link-top-color-border;
+            display    : block;
+            position   : relative;
+            top        : -67px;
+            margin     : 0 13px; // reduce padding from link - lateral: 16px
+            content    : "";
+
+            a{
+              margin-bottom : -5px; // adjust position moved from above :after
+              }
+            } // &:after
+          } // .active
+
+          // ON Folder Subnav
+          .folder {
+            .subnav{
+                .active{
+                    &:after{
+                      top : 0;
+                    }
+                }
+            }
+          } // .folder
+
+
+      } // #mainNavigation
+
+    } //  #header
+    // MENU
+
+// } // @media (min-width : $lg-style-start-at-width)

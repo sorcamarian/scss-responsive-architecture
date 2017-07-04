@@ -1,0 +1,74 @@
+// -------------------------
+// -------------------------
+// Variables
+// -------------------------
+// -------------------------
+
+
+
+
+
+// GENERAL Variables
+// GENERAL Variables
+// GENERAL Variables
+// GENERAL Variables
+// GENERAL Variables
+// ---------------------
+// ---------------------
+$base-font-size      : 15px;
+$first-font-family   : 'Noto Serif', serif;
+$second-font-family  : 'Open Sans', sans-serif;
+$third-font-family   : 'Roboto Condensed', sans-serif;
+$fourth-font-family  : 'PT Sans', sans-serif;
+
+
+
+
+// Colors
+// Colors
+// Colors
+// Colors
+// Colors
+// ---------------------
+// ---------------------
+$first-text-color                  : #333333;
+$second-text-color                 : #fff;
+$highlighting-color                : #ff9e1b;
+$download-buttons-background-color : #333333;
+
+
+
+
+
+// Media
+// Media
+// Media
+// Media
+// Media
+$xs-style-start-at-wdith  : 0px;
+$xs-style-end-at-wdith    : 767px; // (tab - 1)
+
+$sm-style-start-at-wdith  : 768px;
+$sm-style-end-at-wdith    : 1199px; // (desk - 1)
+
+$lg-style-start-at-width  : 1200px;
+
+
+
+// Desktop
+// Desktop
+// Desktop
+// Desktop
+// Desktop
+$desktop-sections-max-width   :  1170px;
+
+
+
+
+// Tablets
+// Tablets
+// Tablets
+// Tablets
+// Tablets
+$tablets-general-sections-distance-between-sides-at-lowest-screen-width : 10 * 2;
+$tablets-general-sections-max-width                                     : $sm-style-start-at-wdith - $tablets-general-sections-distance-between-sides-at-lowest-screen-width;

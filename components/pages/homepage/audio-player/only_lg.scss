@@ -1,0 +1,168 @@
+
+
+// ---------
+//   Only large screens (Only LG)
+//   Only large screens (Only LG)
+// ----------------
+
+
+// @media (min-width : $lg-style-start-at-width) {
+
+
+
+    /*
+      Player recent episode - Only LG
+      Player recent episode - Only LG
+      Player recent episode - Only LG
+      -------------------------------------
+    */
+    .player-recent-episode-container{
+      padding : 0!important;
+
+      @at-root #player-recent-episode{
+        box-sizing      : border-box;
+        padding         : 10px 15px 10px 10px;
+        margin-bottom   : 20px;
+        border-radius   : 5px;
+        display         : flex;
+
+
+        // Player image
+        // Player image
+        // Player image
+        .p-image{
+          height          : 66px;
+          width           : 66px;
+          background-size : cover;
+        } // .p-image
+        // Player image
+
+
+
+        // Player text
+        // Player text
+        // Player text
+        header {
+          padding-left  : 20px;
+          padding-right : 15px;
+          box-sizing    : border-box;
+          margin        : auto 0;
+
+          > * {
+            margin : 0;
+          }
+
+          // Player title
+          // Player title
+          h4 {
+            font-size   : 18px;
+            font-weight : normal;
+            color       : #fff;
+          } // h4
+          // Player title
+
+
+          // Player author
+          // Player author
+          p{
+            font-size : 15px;
+            color     : #ff9e1b!important;
+          } // p
+          // Player author
+
+        } // header
+        // Player text
+
+
+
+        // Player controls
+        // Player controls
+        // Player controls
+        .p-controls{
+          margin-left     : auto;
+          display         : flex;
+          flex-wrap       : wrap;
+          align-items     : center;
+          min-width       : 172px;
+
+          > * {
+            width             : 33px;
+            height            : 29px;
+            margin            : 0 5px;
+            background-size   : contain!important;
+            background-repeat : no-repeat!important;
+            cursor            : pointer;
+            opacity           : 0.7;
+            transition        : .25s opacity;
+            &:hover{
+              opacity : 1;
+            } // &:hover
+          } //  > *
+
+
+          // Player repeat
+          // Player repeat
+          .p-speed{
+            background : url(repeat-homepage-player.png);
+          } // .p-speed
+          // Player repeat
+
+
+          // Player link to episode
+          // Player link to episode
+          .p-link{
+            background : url(link-homepage-player.png);
+          } // .p-link
+          // Player link to episode
+
+
+          // Player download episode
+          // Player download episode
+          .p-download{
+            background : url(download-homepage-player.png);
+          } // .p-download
+          // Player download episode
+
+
+          // Player play
+          // Player play
+          .p-play{
+            background : url(play-homepage-player.png);
+
+            // Player pause
+            // Player pause
+            @at-root #player-recent-episode.plays .p-play{
+              opacity    : 1;
+              background : url(homepage-player-pause.png);
+            } // .p-play
+            // Player pause
+
+          } // .p-play
+          // Player play
+
+
+
+
+        } // .p-controls
+        // Player controls
+
+
+
+
+        // Audio element
+        // Audio element
+        // Audio element
+        @at-root #audio-player{
+
+        } // @at-root #audio-player
+        // Audio element
+
+      } // @at-root #player-recent-episode
+
+    } // .player-recent-episode-container
+    // Player recent episode - Only LG
+
+
+
+
+// } // @media (min-width : $lg-style-start-at-width)
