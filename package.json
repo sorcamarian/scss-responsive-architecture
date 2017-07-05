@@ -1,6 +1,6 @@
 {
-  "name": "SCSS responsive architecture",
-  "version": "1.0",
+  "name": "scss-responsive-architecture",
+  "version": "1.0.1",
   "description": "Simple SCSS boilerplate framework for development of organized and scalable responsive designs.",
   "keywords": ["css", "scss", "sass", "responsive", "rwd"],
   "main": "index.js",
@@ -13,7 +13,7 @@
     "url" : "https://github.com/sorcamarian/scss-responsive-architecture.git"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.13",
     "gulp-rename": "^1.2.2",
