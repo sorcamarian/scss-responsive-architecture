@@ -1,3 +1,4 @@
+# SCSS responsive architecture 
 
 Simple SCSS boilerplate framework for development of organized, automated, scalable and reusable responsive designs. <br><hr>
 
