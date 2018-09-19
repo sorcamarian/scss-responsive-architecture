@@ -1,0 +1,90 @@
+// NOTE: Should be placed inline inside a <style> tag at the bottom of <body>
+
+
+    /*
+      ---------     -------   --- ----------
+      Variables and mixins of all components
+    */
+    @import "./local-homepage-all-variables-and-mixins.scss";
+
+
+    /*
+    -----
+    Reset
+    */
+    @import "../../../../../components/pages/homepage/presentation-statistics/own_reset.scss";
+    @import "../../../../../components/pages/homepage/j-and-p-featured-on/own_reset.scss";
+    @import "../../../../../components/pages/homepage/listeners-feedback/own_reset.scss";
+
+
+
+    /*
+    ----------- -------
+    All screens General(ASG)
+    */
+    @import "../../../../../components/pages/homepage/presentation-statistics/all_screens_general.scss";
+    @import "../../../../../components/pages/homepage/j-and-p-featured-on/all_screens_general.scss";
+    @import "../../../../../components/pages/homepage/listeners-feedback/all_screens_general.scss";
+
+
+
+
+
+    /*
+    ------------
+    Only Extra Small screens (Only XS)
+    */
+
+    @media (max-width : $xs-style-end-at-wdith) {
+
+      @import "../../../../../components/pages/homepage/presentation-statistics/only_xs.scss";
+      @import "../../../../../components/pages/homepage/j-and-p-featured-on/only_xs.scss";
+      @import "../../../../../components/pages/homepage/listeners-feedback/only_xs.scss";
+
+    }
+
+
+
+    /*
+    ------------
+    Only Small screens(Only SM)
+    Only Small screens(Only SM)
+    */
+
+    @media
+    (min-width : $sm-style-start-at-wdith)
+    and
+    (max-width : $sm-style-end-at-wdith)  {
+
+      @import "../../../../../components/pages/homepage/presentation-statistics/only_sm.scss";
+      @import "../../../../../components/pages/homepage/j-and-p-featured-on/only_sm.scss";
+      @import "../../../../../components/pages/homepage/listeners-feedback/only_sm.scss";
+
+    }
+
+
+
+
+    /*
+    ----                -------
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    */
+
+    @media (min-width : $lg-style-start-at-width) {
+
+      @import "../../../../../components/pages/homepage/presentation-statistics/only_lg.scss";
+      @import "../../../../../components/pages/homepage/j-and-p-featured-on/only_lg.scss";
+      @import "../../../../../components/pages/homepage/listeners-feedback/only_lg.scss";
+
+    }
+
+
+
+
+    // Import fonts
+    // NOTE: might reduce import styles
+    // NOTE: Individual fonts for each page
+    @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Sans:400,400i,700,700i|Roboto+Condensed:300,300i,400,400i,700,700i');
+    

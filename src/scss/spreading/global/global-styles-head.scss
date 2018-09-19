@@ -1,0 +1,147 @@
+
+
+  //
+    // ---------     -------   --- ----------
+    // Variables and mixins of all components
+  //
+  @import "./global-styles-all-variables-and-mixins.scss";
+
+
+  //
+    // ---------     -------   --- ----------
+    // Global reset and general
+  //
+  @import "./components/GLOBALS/global_reset";
+  @import "./components/GLOBALS/global_general";
+
+
+  /*
+  -----
+  Reset
+  */
+  @import "./components/subscribe-form/own_reset.scss";
+  @import "./components/sidebar/own_reset.scss";
+  // EPISODE GUIDE
+    @import "./components/pages/episode_guide/navigation-between-sections/own_reset.scss";
+    @import "./components/pages/episode_guide/category-navigation/own_reset.scss";
+
+
+
+
+
+  /*
+  ----------- -------
+  All screens General(ASG)
+  */
+  @import "./components/menu/all_screens_general.scss";
+  @import "./components/subscribe-form/all_screens_general.scss";
+  @import "./components/sidebar/all_screens_general.scss";
+  // EPISODE GUIDE
+    @import "./components/pages/episode_guide/navigation-between-sections/all_screens_general.scss";
+    @import "./components/pages/episode_guide/category-navigation/all_screens_general.scss";
+
+
+
+
+
+  /*
+  ----             -----------------
+  Only Extra Small screens (Only XS)
+  Only Extra Small screens (Only XS)
+  Only Extra Small screens (Only XS)
+  */
+
+  @media (max-width : $xs-style-end-at-wdith) {
+
+
+    // Menu
+    @import "./components/menu//only_xs.scss";
+    // Subscribe form(Free download)
+    @import "./components/subscribe-form/only_xs.scss";
+    // Sidebar
+    @import "./components/sidebar/only_xs.scss";
+
+    // EPISODE GUIDE
+      // Navigation Between Sections
+      @import "./components/pages/episode_guide/navigation-between-sections/only_xs.scss";
+      // Category Navitation
+      @import "./components/pages/episode_guide/category-navigation/only_xs.scss";
+
+  }
+
+
+
+
+
+
+
+  /*
+  ----                -------
+  Only Small screens (Only SM)
+  Only Small screens (Only SM)
+  Only Small screens (Only SM)
+  */
+
+  @media
+  (min-width : $sm-style-start-at-wdith)
+  and
+  (max-width : $sm-style-end-at-wdith)  {
+
+
+    // Menu
+    @import "./components/menu//only_sm.scss";
+    // Subscribe form(Free download)
+    @import "./components/subscribe-form/only_sm.scss";
+    // Sidebar
+    @import "./components/sidebar/only_sm.scss";
+
+    // EPISODE GUIDE
+      // Navigation Between Sections
+      @import "./components/pages/episode_guide/navigation-between-sections/only_sm.scss";
+      // Category Navitation
+      @import "./components/pages/episode_guide/category-navigation/only_sm.scss";
+
+  }
+
+
+
+
+
+
+
+    /*
+    ----                -------
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    */
+
+    @media (min-width : $lg-style-start-at-width) {
+
+
+      // Menu
+      @import "./components/menu//only_lg.scss";
+      // Subscribe form(Free download)
+      @import "./components/subscribe-form/only_lg.scss";
+      // Sidebar
+      @import "./components/sidebar/only_lg.scss";
+
+      // EPISODE GUIDE
+        // Navigation Between Sections
+        @import "./components/pages/episode_guide/navigation-between-sections/only_lg.scss";
+        // Category Navitation
+        @import "./components/pages/episode_guide/category-navigation/only_lg.scss";
+
+    }
+
+
+
+
+
+
+    /*
+    -------                    ------
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    */

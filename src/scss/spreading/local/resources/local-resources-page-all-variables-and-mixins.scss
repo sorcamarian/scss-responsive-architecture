@@ -1,0 +1,21 @@
+
+// Global SASS
+@import "./components/GLOBALS/_global_variables.scss";
+@import "./components/GLOBALS/_global_mixins.scss";
+
+// LOCAL
+// LOCAL
+// LOCAL
+    // Homepage
+
+
+    //
+      // ---------     -------   --- ----------
+      // Variables and mixins of all components
+    //
+    // Hero banner
+    @import "./components/pages/resources/hero-banner/_own_variables.scss";
+    @import "./components/pages/resources/hero-banner/_own_mixins.scss";
+    // Download Your Free Resources
+    @import "./components/pages/resources/download-your-free-resources/_own_variables.scss";
+    @import "./components/pages/resources/download-your-free-resources/_own_mixins.scss";

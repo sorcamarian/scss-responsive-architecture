@@ -1,0 +1,27 @@
+
+// Global SASS
+@import "./components/GLOBALS/_global_variables.scss";
+@import "./components/GLOBALS/_global_mixins.scss";
+
+// LOCAL
+// LOCAL
+// LOCAL
+    // Homepage
+
+
+    //
+      // ---------     -------   --- ----------
+      // Variables and mixins of all components
+    //
+    // Hero banner
+    @import "./components/pages/about/hero-banner/_own_variables.scss";
+    @import "./components/pages/about/hero-banner/_own_mixins.scss";
+    // Download our FREE 77 Affirmations
+    @import "./components/pages/about/download-77-affirmations/_own_variables.scss";
+    @import "./components/pages/about/download-77-affirmations/_own_mixins.scss";
+    // James Wedmore
+    @import "./components/pages/about/james-wedmore/_own_variables.scss";
+    @import "./components/pages/about/james-wedmore/_own_mixins.scss";
+    // Phoebe Mroczek
+    @import "./components/pages/about/phoebe-mroczek/_own_variables.scss";
+    @import "./components/pages/about/phoebe-mroczek/_own_mixins.scss";

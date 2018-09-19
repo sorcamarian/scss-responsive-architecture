@@ -1,0 +1,89 @@
+// NOTE: Should be placed inline inside a <style> tag at the bottom of <body>
+
+
+// NOTE: Should be placed inline inside a <style> tag at the bottom of <body>
+
+
+// NOTE: Should be placed inline inside a <style> tag at the bottom of <body>
+
+
+    //
+      // ---------     -------   --- ----------
+      // Variables and mixins of all components
+    //
+    @import "./local-resources-page-all-variables-and-mixins.scss";
+
+
+    /*
+    -----
+    Reset
+    */
+
+
+
+
+    /*
+    ----------- -------
+    All screens General(ASG)
+    */
+
+
+
+
+
+
+
+
+    /*
+    ------------
+    Only Extra Small screens (Only XS)
+    */
+
+    @media (max-width : $xs-style-end-at-wdith) {
+
+
+    }
+
+
+
+    /*
+    ------------
+    Only Small screens(Only SM)
+    Only Small screens(Only SM)
+    */
+
+    @media
+    (min-width : $sm-style-start-at-wdith)
+    and
+    (max-width : $sm-style-end-at-wdith)  {
+
+
+    }
+
+
+
+
+    /*
+    ----                -------
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    */
+
+    @media (min-width : $lg-style-start-at-width) {
+
+
+    }
+
+
+
+    /*
+    -------                    ------
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    */
+
+
+    // Import fonts
+    @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Open+Sans:400,700|PT+Sans:700|Roboto+Condensed');

@@ -1,0 +1,90 @@
+// NOTE: Should be placed inline inside a <style> tag at the bottom of <body>
+
+
+    //
+      // ---------     -------   --- ----------
+      // Variables and mixins of all components
+    //
+    @import "./local-about-page-all-variables-and-mixins.scss";
+
+
+    /*
+    -----
+    Reset
+    */
+
+
+
+
+    /*
+    ----------- -------
+    All screens General(ASG)
+    */
+    @import "../../../../../components/pages/about/download-77-affirmations/all_screens_general.scss";
+    @import "../../../../../components/pages/about/phoebe-mroczek/all_screens_general.scss";
+
+
+
+
+
+    /*
+    ------------
+    Only Extra Small screens (Only XS)
+    */
+
+    @media (max-width : $xs-style-end-at-wdith) {
+
+      @import "../../../../../components/pages/about/download-77-affirmations/only_xs.scss";
+      @import "../../../../../components/pages/about/phoebe-mroczek/only_xs.scss";
+
+    }
+
+
+
+    /*
+    ------------
+    Only Small screens(Only SM)
+    Only Small screens(Only SM)
+    */
+
+    @media
+    (min-width : $sm-style-start-at-wdith)
+    and
+    (max-width : $sm-style-end-at-wdith)  {
+
+      @import "../../../../../components/pages/about/download-77-affirmations/only_sm.scss";
+      @import "../../../../../components/pages/about/phoebe-mroczek/only_sm.scss";
+
+    }
+
+
+
+
+    /*
+    ----                -------
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    */
+
+    @media (min-width : $lg-style-start-at-width) {
+
+      @import "../../../../../components/pages/about/download-77-affirmations/only_lg.scss";
+      @import "../../../../../components/pages/about/phoebe-mroczek/only_lg.scss";
+
+    }
+
+
+
+
+    /*
+    -------                    ------
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    */
+    @import "./components/pages/about/james-wedmore/special_full_width_sections.scss";
+
+
+    // Import fonts
+    @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Open+Sans:400,700');

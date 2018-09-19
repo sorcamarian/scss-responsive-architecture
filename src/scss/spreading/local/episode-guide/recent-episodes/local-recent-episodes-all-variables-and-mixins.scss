@@ -1,0 +1,27 @@
+
+// Global SASS
+@import "./components/GLOBALS/_global_variables.scss";
+@import "./components/GLOBALS/_global_mixins.scss";
+
+// LOCAL
+// LOCAL
+// LOCAL
+    // Homepage
+
+
+    /*
+      ---------     -------   --- ----------
+      Variables and mixins of all components
+    */
+    // Hero banner
+    @import "./components/pages/episode_guide/recent-episodes/hero-banner/_own_variables.scss";
+    @import "./components/pages/episode_guide/recent-episodes/hero-banner/_own_mixins.scss";
+    // MAIN Body sections container
+    @import "./components/pages/episode_guide/recent-episodes/main-body-sections-container/_own_variables.scss";
+    @import "./components/pages/episode_guide/recent-episodes/main-body-sections-container/_own_mixins.scss";
+    // Entries
+    @import "./components/pages/episode_guide/recent-episodes/blog-entries/_own_variables.scss";
+    @import "./components/pages/episode_guide/recent-episodes/blog-entries/_own_mixins.scss";
+    // Sidebar
+    @import "./components/pages/episode_guide/recent-episodes/sidebar/_own_variables.scss";
+    @import "./components/pages/episode_guide/recent-episodes/sidebar/_own_mixins.scss";

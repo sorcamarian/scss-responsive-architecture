@@ -1,0 +1,95 @@
+// NOTE: Should be placed inline inside a <style> tag inside <head>
+
+
+    //
+      // ---------     -------   --- ----------
+      // Variables and mixins of all components
+    //
+    @import "./local-about-page-all-variables-and-mixins.scss";
+
+
+    /*
+    -----
+    Reset
+    */
+    // @import "./components/pages/about/hero-banner/own_reset.scss";
+
+
+
+
+    /*
+    ----------- -------
+    All screens General(ASG)
+    */
+    @import "./components/pages/about/hero-banner/all_screens_general.scss";
+    @import "./components/pages/about/what-got-you-here/all_screens_general.scss";
+    @import "./components/pages/about/james-wedmore/all_screens_general.scss";
+
+
+
+
+
+
+
+    /*
+    ------------
+    Only Extra Small screens (Only XS)
+    */
+
+    @media (max-width : $xs-style-end-at-wdith) {
+
+      @import "./components/pages/about/hero-banner/only_xs.scss";
+      @import "./components/pages/about/what-got-you-here/only_xs.scss";
+      @import "./components/pages/about/james-wedmore/only_xs.scss";
+
+    }
+
+
+
+    /*
+    ------------
+    Only Small screens(Only SM)
+    Only Small screens(Only SM)
+    */
+
+    @media
+    (min-width : $sm-style-start-at-wdith)
+    and
+    (max-width : $sm-style-end-at-wdith)  {
+
+      @import "./components/pages/about/hero-banner/only_sm.scss";
+      @import "./components/pages/about/what-got-you-here/only_sm.scss";
+      @import "./components/pages/about/james-wedmore/only_sm.scss";
+
+    }
+
+
+
+
+    /*
+    ----                -------
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    */
+
+    @media (min-width : $lg-style-start-at-width) {
+
+      @import "./components/pages/about/hero-banner/only_lg.scss";
+      @import "./components/pages/about/what-got-you-here/only_lg.scss";
+      @import "./components/pages/about/james-wedmore/only_lg.scss";
+
+    }
+
+
+
+
+    /*
+    -------                    ------
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    */
+
+    @import "./components/pages/about/what-got-you-here/special_full_width_sections.scss";
+    @import "./components/pages/about/james-wedmore/special_full_width_sections.scss";

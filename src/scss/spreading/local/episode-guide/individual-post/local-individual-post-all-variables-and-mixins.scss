@@ -1,0 +1,30 @@
+
+// Global SASS
+@import "./components/GLOBALS/_global_variables.scss";
+@import "./components/GLOBALS/_global_mixins.scss";
+
+// LOCAL
+// LOCAL
+// LOCAL
+    // Homepage
+
+
+    /*
+      ---------     -------   --- ----------
+      Variables and mixins of all components
+    */
+    // Hero banner
+    @import "./components/pages/episode_guide/individual-post/hero-banner/_own_variables.scss";
+    @import "./components/pages/episode_guide/individual-post/hero-banner/_own_mixins.scss";
+    // MAIN Body sections container
+    @import "./components/pages/episode_guide/individual-post/main-body-sections-container/_own_variables.scss";
+    @import "./components/pages/episode_guide/individual-post/main-body-sections-container/_own_mixins.scss";
+    // Main content - left side
+    @import "./components/pages/episode_guide/individual-post/main-content/_own_variables.scss";
+    @import "./components/pages/episode_guide/individual-post/main-content/_own_mixins.scss";
+    // Sidebar - Right side
+    @import "./components/pages/episode_guide/individual-post/sidebar/_own_variables.scss";
+    @import "./components/pages/episode_guide/individual-post/sidebar/_own_mixins.scss";
+    // Post Meta information(Date, Author, Comments nr.)
+    @import "./components/pages/episode_guide/individual-post/individual-post-meta-informations/_own_variables.scss";
+    @import "./components/pages/episode_guide/individual-post/individual-post-meta-informations/_own_mixins.scss";

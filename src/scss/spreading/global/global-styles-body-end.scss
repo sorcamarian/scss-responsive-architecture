@@ -1,0 +1,126 @@
+
+
+
+  //
+    // ---------     -------   --- ----------
+    // Variables and mixins of all components
+  //
+  @import "./global-styles-all-variables-and-mixins.scss";
+
+
+
+
+
+
+
+  /*
+  -----
+  Reset
+  */
+    @import "./components/pages/episode_guide/subscribe-to-mybp/own_reset.scss";
+  @import "./components/pages/episode_guide/instagram-widget/own_reset.scss";
+  @import "./components/feedback-carousel/own_reset.scss";
+
+
+
+
+  /*
+  ----------- -------
+  All screens General(ASG)
+  */
+    @import "./components/pages/episode_guide/subscribe-to-mybp/all_screens_general.scss";
+  @import "./components/pages/episode_guide/instagram-widget/all_screens_general.scss";
+  @import "./components/feedback-carousel/all_screens_general.scss";
+  @import "./components/footer/all_screens_general.scss";
+
+
+
+
+  /*
+  ----             -----------------
+  Only Extra Small screens (Only XS)
+  Only Extra Small screens (Only XS)
+  Only Extra Small screens (Only XS)
+  */
+
+  @media (max-width : $xs-style-end-at-wdith) {
+
+      // Subscribe to MYBP button
+      @import "./components/pages/episode_guide/subscribe-to-mybp/only_xs.scss";
+      // Instagram Widget
+      @import "./components/pages/episode_guide/instagram-widget/only_xs.scss";
+
+    // Feedback Carousel
+    @import "./components/feedback-carousel/only_xs.scss";
+    // Footer
+    @import "./components/footer/only_xs.scss";
+
+  }
+
+
+
+
+
+
+
+  /*
+  ----                -------
+  Only Small screens (Only SM)
+  Only Small screens (Only SM)
+  Only Small screens (Only SM)
+  */
+
+  @media
+  (min-width : $sm-style-start-at-wdith)
+  and
+  (max-width : $sm-style-end-at-wdith)  {
+
+
+      // Subscribe to MYBP button
+      @import "./components/pages/episode_guide/subscribe-to-mybp/only_sm.scss";
+      // Instagram Widget
+      @import "./components/pages/episode_guide/instagram-widget/only_sm.scss";
+
+    // Feedback Carousel
+    @import "./components/feedback-carousel/only_sm.scss";
+    // Footer
+    @import "./components/footer/only_sm.scss";
+
+  }
+
+
+
+
+
+
+
+    /*
+    ----                -------
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    Only Large screens (Only LG)
+    */
+
+    @media (min-width : $lg-style-start-at-width) {
+
+        // Subscribe to MYBP button
+        @import "./components/pages/episode_guide/subscribe-to-mybp/only_lg.scss";
+        // Instagram Widget
+        @import "./components/pages/episode_guide/instagram-widget/only_lg.scss";
+
+      // Feedback Carousel
+      @import "./components/feedback-carousel/only_lg.scss";
+      // Footer
+      @import "./components/footer/only_lg.scss";
+
+    }
+
+
+
+
+    /*
+    -------                    ------
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    Special Full Width Section (SFWS)
+    */

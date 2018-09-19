@@ -1,0 +1,40 @@
+
+// Global SASS
+@import "../../../../../components/GLOBALS/_global_variables.scss";
+@import "../../../../../components/GLOBALS/_global_mixins.scss";
+
+// LOCAL
+// LOCAL
+// LOCAL
+    // Homepage
+
+
+    /*
+      ---------     -------   --- ----------
+      Variables and mixins of all components
+    */
+    // Hero banner
+    @import "../../../../../components/pages/homepage/hero-banner/_own_variables.scss";
+    @import "../../../../../components/pages/homepage/hero-banner/_own_mixins.scss";
+    // MAIN Body sections container
+    @import "../../../../../components/pages/homepage/main-body-sections-container/_own_variables.scss";
+    @import "../../../../../components/pages/homepage/main-body-sections-container/_own_mixins.scss";
+    // Recent episodes and custom sidebar wrapper
+    @import "../../../../../components/pages/homepage/recent-episodes-and-custom-sidebar-wrapper/_own_variables.scss";
+    @import "../../../../../components/pages/homepage/recent-episodes-and-custom-sidebar-wrapper/_own_mixins.scss";
+    // Phoebe and James
+    @import "../../../../../components/pages/homepage/phoebe-and-james/_own_variables.scss";
+    @import "../../../../../components/pages/homepage/phoebe-and-james/_own_mixins.scss";
+    // Recent episodes
+    @import "../../../../../components/pages/homepage/recent-episodes/_own_variables.scss";
+    @import "../../../../../components/pages/homepage/recent-episodes/_own_mixins.scss";
+
+    // Presentation statistics
+    @import "../../../../../components/pages/homepage/presentation-statistics/_own_variables.scss";
+    @import "../../../../../components/pages/homepage/presentation-statistics/_own_mixins.scss";
+    // James and Phoebe featured on
+    @import "../../../../../components/pages/homepage/j-and-p-featured-on/_own_variables.scss";
+    @import "../../../../../components/pages/homepage/j-and-p-featured-on/_own_mixins.scss";
+    // What Our Listeners Are Saying - Carousel
+    @import "../../../../../components/pages/homepage/listeners-feedback/_own_variables.scss";
+    @import "../../../../../components/pages/homepage/listeners-feedback/_own_mixins.scss";

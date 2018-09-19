@@ -1,0 +1,45 @@
+// Global SASS
+@import "./components/GLOBALS/_global_variables";
+@import "./components/GLOBALS/_global_mixins";
+
+
+
+
+
+/*
+  --------------------        ----------
+  Variables AND mixins of all GLOBAL components
+*/
+
+  // Menu
+  @import "./components/menu/_own_variables";
+  @import "./components/menu/_own_mixins";
+  // Subscribe form(Free download)
+  @import "./components/subscribe-form/_own_variables";
+  @import "./components/subscribe-form/_own_mixins";
+  // Sidebar
+  @import "./components/sidebar/_own_variables";
+  @import "./components/sidebar/_own_mixins";
+  // EPISODE GUIDE
+    // Navigation Between Sections
+    @import "./components/pages/episode_guide/navigation-between-sections/_own_variables.scss";
+    @import "./components/pages/episode_guide/navigation-between-sections/_own_mixins.scss";
+    // Category Navitation
+    @import "./components/pages/episode_guide/category-navigation/_own_variables.scss";
+    @import "./components/pages/episode_guide/category-navigation/_own_mixins.scss";
+    // Post Meta information
+    @import "./components/pages/episode_guide/individual-post/individual-post-meta-informations/_own_variables.scss";
+    @import "./components/pages/episode_guide/individual-post/individual-post-meta-informations/_own_mixins.scss";
+    // Subscribe to MYBP button
+    @import "./components/pages/episode_guide/subscribe-to-mybp/_own_variables.scss";
+    @import "./components/pages/episode_guide/subscribe-to-mybp/_own_mixins.scss";
+
+  // Instagram Widget
+  @import "./components/pages/episode_guide/instagram-widget/_own_variables.scss";
+  @import "./components/pages/episode_guide/instagram-widget/_own_mixins.scss";
+  // Feedback Carousel
+  @import "./components/feedback-carousel/_own_variables.scss";
+  @import "./components/feedback-carousel/_own_mixins.scss";
+  // Footer
+  @import "./components/footer/_own_variables.scss";
+  @import "./components/footer/_own_mixins.scss";
